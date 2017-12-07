@@ -1,0 +1,71 @@
+/*! Pure v0.6.0 | Yahoo! Inc. | BSD License */
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+
+// 字体族
+$font-family-sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif    !default;
+$font-family-serif:      Georgia, "Times New Roman", Times, serif          !default;
+$font-family-monospace:  Menlo, Monaco, Consolas, "Courier New", monospace !default;
+$font-family-base:       $font-family-sans-serif                           !default;
+
+// 颜色
+$red:    #fb6f6f       !default;
+$yellow: #f8d200       !default;
+$blue:   #7098fc       !default;
+$green:  #60d255       !default;
+$black:  #000000       !default;
+$white:  #ffffff       !default;
+
+$text-dark:   #333333   !default;
+$text-normal: #808080   !default;
+$text-light:  #cccccc   !default;
+
+$color-bg:      #f7f7f7                  !default;
+$color-divider: #ebebeb                  !default;
+$color-padding: #d9d9d9                  !default;
+
+// 所有的标准 HTML5 标签
+// https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/HTML5/HTML5_element_list
+html,head,title,base,link,meta,style,script,noscript,
+template,body,section,nav,article,aside,h1,h2,h3,h4,h5,h6,header,
+footer,address,main,p,hr,pre,blockquote,ol,ul,li,dl,
+dt,dd,figure,figcaption,div,a,em,strong,small,s,cite,
+q,dfn,abbr,data,time,code,var,samp,kbd,sub,i,span,br,wbr,ins,del,img,iframe,embed,
+object,param,video,audio,source,track,canvas,map,area,
+svg,table,caption,colgroup,col,tbody,thead,tfoot,
+tr,td,th,form,fieldset,legend,label,input,button,select,
+datalist,optgroup,option,textarea {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+html {
+  font-family: $font-family-base;
+  // 阻止 iOS 屏幕翻转后字体调整, 不影响用户缩放
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  // 全局继承盒模型
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+// 去掉 heading 字体加粗
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+}

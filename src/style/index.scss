@@ -1,0 +1,8 @@
+@import "./reset.scss";
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .3s ease;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active 在 <2.1.8 中 */ {
+  opacity: 0;
+}
