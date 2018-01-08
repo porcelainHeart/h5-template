@@ -26,17 +26,17 @@ export default {
     },
     pop (type) {
       if (type === 1) {
-        Toast('卢本伟开挂')
+        Toast('demo1')
       }
       if (type === 2) {
         Toast({
-          message: '卢本伟开挂',
+          message: 'demo2',
           duration: 500,
         })
       }
       if (type === 3) {
         Toast({
-          message: '卢本伟开挂',
+          message: 'demo3',
           position: 'top',
         })
       }
